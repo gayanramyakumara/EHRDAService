@@ -1,8 +1,4 @@
-﻿// Created by       : Buddhima Kudagama
-// Created on       : 10th january 2018
-// Type             : common class
-// Description      : contains common properties and methods
-
+﻿
 using System;
 using System.IO;
 using System.Xml;
@@ -124,7 +120,7 @@ namespace Utility
         }
 
         /// <summary>
-        /// Get xml documet as a string  : by Buddhima
+        /// Get xml documet as a string  : by Gayan Ramya Kumara
         /// </summary>
         /// <param name="xmlCoc"></param>
         /// <returns></returns>
@@ -318,7 +314,7 @@ namespace Utility
             {
                 tempString = RemoveThousandSeperator(value.ToString().Trim());
                 tempString = tempString.Replace(",", ".");
-                // buddhima 2016/09/13 : remove currency symbols
+                // Gayan Ramya Kumara 2016/09/13 : remove currency symbols
                 tempString = tempString.Replace("€", "").Trim();
                 tempString = tempString.Replace("$", "").Trim();
                 tempString = tempString.Replace("BEF", "").Trim();
@@ -354,7 +350,7 @@ namespace Utility
                 tempString = tempString.Replace(",", ".");
 
                 // tempString = tempString.Replace("€", "").Trim();
-                // buddhima 2016/09/13 : remove currency symbols
+                // Gayan Ramya Kumara 2016/09/13 : remove currency symbols
                 tempString = tempString.Replace("€", "").Trim();
                 tempString = tempString.Replace("$", "").Trim();
                 tempString = tempString.Replace("BEF", "").Trim();
